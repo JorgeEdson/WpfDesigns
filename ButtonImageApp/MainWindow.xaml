@@ -12,11 +12,11 @@
         WindowStartupLocation="CenterScreen"
         AllowsTransparency="True">
     <Window.Resources>
-        <ImageBrush x:Key="facebookHover" ImageSource="C:\projects\WPFDesigns\ButtonImageApp\Assets\facebookHover.png" Stretch="None"/>
-        <ImageBrush x:Key="twitterHover" ImageSource="C:\projects\WPFDesigns\ButtonImageApp\Assets\twitterHover.png" Stretch="None"/>
-        <ImageBrush x:Key="instagramHover" ImageSource="C:\projects\WPFDesigns\ButtonImageApp\Assets\instagramHover.png" Stretch="None"/>
-        <ImageBrush x:Key="googleHover" ImageSource="C:\projects\WPFDesigns\ButtonImageApp\Assets\googleHover.png" Stretch="None"/>
-        <ImageBrush x:Key="powerOffHover" ImageSource="C:\projects\WPFDesigns\ButtonImageApp\Assets\powerOffMouseOver.png" Stretch="None"/>
+        <ImageBrush x:Key="facebookHover" ImageSource="Assets/facebookHover.png" Stretch="None"/>
+        <ImageBrush x:Key="twitterHover" ImageSource="Assets/twitterHover.png" Stretch="None"/>
+        <ImageBrush x:Key="instagramHover" ImageSource="Assets/instagramHover.png" Stretch="None"/>
+        <ImageBrush x:Key="googleHover" ImageSource="Assets/googleHover.png" Stretch="None"/>
+        <ImageBrush x:Key="powerOffHover" ImageSource="Assets/powerOffMouseOver.png" Stretch="None"/>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
                 <Setter.Value>
@@ -317,7 +317,7 @@
                 Grid.Row="1"
                 Grid.Column="1">
             <Button.Background>
-                <ImageBrush ImageSource="C:\projects\WPFDesigns\ButtonImageApp\Assets\facebook.png" Stretch="None"/>
+                <ImageBrush ImageSource="Assets/facebook.png" Stretch="None"/>
             </Button.Background>
         </Button>
         <Button Style="{DynamicResource twitterButton}" Height="150" 
@@ -326,7 +326,7 @@
                 Grid.Row="1"
                 Grid.Column="2">
             <Button.Background>
-                <ImageBrush ImageSource="C:\projects\WPFDesigns\ButtonImageApp\Assets\twitter.png" Stretch="None"/>
+                <ImageBrush ImageSource="Assets/twitter.png" Stretch="None"/>
             </Button.Background>
         </Button>
         <Button Style="{DynamicResource instagramButton}" Height="150" 
@@ -335,7 +335,7 @@
                 Grid.Row="1"
                 Grid.Column="3">
             <Button.Background>
-                <ImageBrush ImageSource="C:\projects\WPFDesigns\ButtonImageApp\Assets\instagram.png" Stretch="None"/>
+                <ImageBrush ImageSource="Assets/instagram.png" Stretch="None"/>
             </Button.Background>
         </Button>
         <Button Style="{DynamicResource googleButton}" Height="150" 
@@ -344,7 +344,7 @@
                 Grid.Row="1"
                 Grid.Column="4">
             <Button.Background>
-                <ImageBrush ImageSource="C:\projects\WPFDesigns\ButtonImageApp\Assets\google.png" Stretch="None"/>
+                <ImageBrush ImageSource="Assets/google.png" Stretch="None"/>
             </Button.Background>
         </Button>
         <Canvas>
@@ -354,7 +354,7 @@
                     BorderThickness="0"
                     Click="Button_Click">
                 <Button.Background>
-                    <ImageBrush ImageSource="C:\projects\WPFDesigns\ButtonImageApp\Assets\powerOffDefault.png" Stretch="None"/>
+                    <ImageBrush ImageSource="Assets/powerOffDefault.png" Stretch="None"/>
                 </Button.Background>
             </Button>
         </Canvas>
