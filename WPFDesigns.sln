@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PopupApp", "PopupApp\PopupA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomScrollbar", "CustomScrollbar\CustomScrollbar.csproj", "{EA638368-C4B7-4985-ADCD-966C5AB161CA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NavigationDrawerWithSideBarMenu", "NavigationDrawerWithSideBarMenu\NavigationDrawerWithSideBarMenu.csproj", "{53306AAF-5019-4A8F-B2DE-E3934414ED22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EA638368-C4B7-4985-ADCD-966C5AB161CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA638368-C4B7-4985-ADCD-966C5AB161CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA638368-C4B7-4985-ADCD-966C5AB161CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53306AAF-5019-4A8F-B2DE-E3934414ED22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53306AAF-5019-4A8F-B2DE-E3934414ED22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53306AAF-5019-4A8F-B2DE-E3934414ED22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53306AAF-5019-4A8F-B2DE-E3934414ED22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

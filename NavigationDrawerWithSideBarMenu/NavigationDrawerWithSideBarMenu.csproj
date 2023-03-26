@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets/*" />
+    <Resource Include="Fonts/*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\powerOffDefault.png" />
+    <None Remove="Assets\powerOffMouseOver.png" />
+  </ItemGroup>
+</Project>
