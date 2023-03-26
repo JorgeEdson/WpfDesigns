@@ -11,7 +11,7 @@
         Background="Transparent"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
-        <ImageBrush x:Key="Assets" ImageSource="C:\projects\WPFDesigns\RoundedCornerForm\Assets\powerOffMouseOver.png" Stretch="None"/>
+        <ImageBrush x:Key="Assets" ImageSource="Assets/powerOffMouseOver.png" Stretch="None"/>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
                 <Setter.Value>
@@ -96,7 +96,7 @@
                         Width="100"
                         Click="Button_Click">
                     <Button.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\RoundedCornerForm\Assets\powerOffDefault.png" Stretch="None"/>
+                        <ImageBrush ImageSource="Assets/powerOffDefault.png" Stretch="None"/>
                     </Button.Background>
                 </Button>
             </Grid>

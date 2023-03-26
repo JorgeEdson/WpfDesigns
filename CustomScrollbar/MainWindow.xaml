@@ -17,9 +17,9 @@
     <Window.Resources>
         <local:ScrollLimitConverter x:Key="scrollLimitConverter"></local:ScrollLimitConverter>
         <ImageBrush x:Key="UpArrow_Default"
-                    ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Up_Arrow_Default.png"/>
+                    ImageSource="Assets/Up_Arrow_Default.png"/>
         <ImageBrush x:Key="DownArrow_Default"
-                    ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Down_Arrow_Default.png"/>
+                    ImageSource="Assets/Down_Arrow_Default.png"/>
 
         <Style TargetType="ScrollBar">
             <Setter Property="SnapsToDevicePixels" Value="True"/>
@@ -113,7 +113,7 @@
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="1">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Header_Title.png"
+                        <ImageBrush ImageSource="Assets/Header_Title.png"
                                     Stretch="None"/>
                     </Grid.Background>
                 </Grid>
@@ -125,7 +125,7 @@
                             Style="{DynamicResource Close_btn}"
                             Click="CloseButton_Click">
                         <Button.Background >
-                            <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Close_Icon_Default.png"
+                            <ImageBrush ImageSource="Assets/Close_Icon_Default.png"
                                        Stretch="None" />
                         </Button.Background>
                     </Button>
@@ -160,97 +160,97 @@
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="1" Grid.Column="1" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img1.png"
+                        <ImageBrush ImageSource="Assets/Img1.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="1" Grid.Column="2" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img2.png"
+                        <ImageBrush ImageSource="Assets/Img2.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="1" Grid.Column="3" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img3.png"
+                        <ImageBrush ImageSource="Assets/Img3.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="2" Grid.Column="1" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img4.png"
+                        <ImageBrush ImageSource="Assets/Img4.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="2" Grid.Column="2" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img5.png"
+                        <ImageBrush ImageSource="Assets/Img5.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="2" Grid.Column="3" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img6.png"
+                        <ImageBrush ImageSource="Assets/Img6.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="3" Grid.Column="1" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img7.png"
+                        <ImageBrush ImageSource="Assets/Img7.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="3" Grid.Column="2" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img8.png"
+                        <ImageBrush ImageSource="Assets/Img8.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="3" Grid.Column="3" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img9.png"
+                        <ImageBrush ImageSource="Assets/Img9.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="4" Grid.Column="1" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img10.png"
+                        <ImageBrush ImageSource="Assets/Img10.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="4" Grid.Column="2" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img11.png"
+                        <ImageBrush ImageSource="Assets/Img11.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="4" Grid.Column="3" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img12.png"
+                        <ImageBrush ImageSource="Assets/Img12.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="5" Grid.Column="1" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img13.png"
+                        <ImageBrush ImageSource="Assets/Img13.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="5" Grid.Column="2" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img14.png"
+                        <ImageBrush ImageSource="Assets/Img14.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="5" Grid.Column="3" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img15.png"
+                        <ImageBrush ImageSource="Assets/Img15.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>
                 <Grid Grid.Row="6" Grid.Column="1" Margin="10">
                     <Grid.Background>
-                        <ImageBrush ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Img16.png"
+                        <ImageBrush ImageSource="Assets/Img16.png"
                                     Stretch="Fill"/>
                     </Grid.Background>
                 </Grid>

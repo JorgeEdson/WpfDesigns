@@ -2,11 +2,11 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
 
-    <ImageBrush x:Key="ThumbIcon_Default" ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Thumb_Icon_Default.png"/>
-    <ImageBrush x:Key="ThumbIcon_MouseOver" ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Thumb_Icon_MouseOver.png"/>
-    <ImageBrush x:Key="UpArrow_MouseOver" ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Up_Arrow_MouseOver.png"/>
-    <ImageBrush x:Key="DownArrow_MouseOver" ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Down_Arrow_MouseOver.png"/>
-    <ImageBrush x:Key="CloseBtn_MouseOver" ImageSource="C:\projects\WPFDesigns\CustomScrollbar\Assets\Close_Icon_MouseOver.png" Stretch="None"/>
+    <ImageBrush x:Key="ThumbIcon_Default" ImageSource="Assets/Thumb_Icon_Default.png"/>
+    <ImageBrush x:Key="ThumbIcon_MouseOver" ImageSource="Assets/Thumb_Icon_MouseOver.png"/>
+    <ImageBrush x:Key="UpArrow_MouseOver" ImageSource="Assets/Up_Arrow_MouseOver.png"/>
+    <ImageBrush x:Key="DownArrow_MouseOver" ImageSource="Assets/Down_Arrow_MouseOver.png"/>
+    <ImageBrush x:Key="CloseBtn_MouseOver" ImageSource="Assets/Close_Icon_MouseOver.png" Stretch="None"/>
 
     <Style x:Key="ScrollBar_Thumb" TargetType="{x:Type Thumb}">
         <Setter Property="SnapsToDevicePixels" Value="True"/>
