@@ -11,4 +11,5 @@
     <Resource Include="Assets/*" />
     <Resource Include="Fonts/*" />
   </ItemGroup>
+
 </Project>

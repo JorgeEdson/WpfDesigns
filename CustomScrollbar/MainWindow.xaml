@@ -111,11 +111,8 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="80"/>
                 </Grid.ColumnDefinitions>
-                <Grid Grid.Column="1">
-                    <Grid.Background>
-                        <ImageBrush ImageSource="Assets/Header_Title.png"
-                                    Stretch="None"/>
-                    </Grid.Background>
+                <Grid Grid.Column="1"
+                      Background="Goldenrod">                    
                 </Grid>
                 <Grid Grid.Column="2">
                     <Button x:Name="CloseButton"
